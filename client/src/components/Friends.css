@@ -1,0 +1,80 @@
+.friends-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .friends-header {
+    text-align: center;
+    color: #333;
+  }
+  
+  .friend-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .friend-form input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .friend-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .friend-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .friends-section {
+    margin-bottom: 30px;
+  }
+  
+  .friends-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .friend-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .friend-item button {
+    padding: 5px 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .friend-item button:hover {
+    background-color: #007B9A;
+  }
+  
+  .friend-count {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
